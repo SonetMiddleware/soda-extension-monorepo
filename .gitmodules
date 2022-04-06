@@ -1,0 +1,12 @@
+[submodule "packages/soda-extension"]
+	path = packages/soda-extension
+	url = https://Plato-Twin@github.com/platwin/soda-extension
+[submodule "packages/soda-core"]
+	path = packages/soda-core
+	url = https://Plato-Twin@github.com/platwin/soda-core
+[submodule "packages/facebook-kit"]
+	path = packages/facebook-kit
+	url = https://Plato-Twin@github.com/platwin/facebook-kit
+[submodule "packages/twitter-kit"]
+	path = packages/twitter-kit
+	url = https://Plato-Twin@github.com/platwin/twitter-kit

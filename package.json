@@ -1,0 +1,49 @@
+{
+  "name": "soda-monorepo",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "babel-eslint": "^10.1.0",
+    "esbuild": "^0.14.27",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier-standard": "^4.0.1",
+    "eslint-config-react-app": "^7.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1",
+    "prettier-config-standard": "^5.0.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "prepublish": "pnpm build",
+    "verify": "lerna run verify --stream",
+    "prettier": "lerna run prettier",
+    "build": "lerna run build",
+    "test": "NODE_ENV=development lerna run test --stream"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pnpm prettier",
+      "pre-push": "pnpm verify"
+    }
+  },
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}

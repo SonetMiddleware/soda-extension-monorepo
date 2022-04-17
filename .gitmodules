@@ -28,3 +28,6 @@
 [submodule "packages/soda-mp-sdk"]
 	path = packages/soda-mp-sdk
 	url = https://github.com/platwin/soda-mp-sdk.git
+[submodule "packages/soda-storage-sdk"]
+	path = packages/soda-storage-sdk
+	url = https://github.com/platwin/soda-storage-sdk.git

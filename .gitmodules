@@ -16,3 +16,15 @@
 [submodule "packages/soda-image-kit"]
 	path = packages/soda-image-kit
 	url = https://github.com/platwin/soda-image-kit.git
+[submodule "packages/soda-nashmarket"]
+	path = packages/soda-nashmarket
+	url = https://github.com/platwin/soda-nashmarket.git
+[submodule "packages/soda-ipfs-kit"]
+	path = packages/soda-ipfs-kit
+	url = https://github.com/platwin/soda-ipfs-kit.git
+[submodule "packages/soda-media-sdk"]
+	path = packages/soda-media-sdk
+	url = https://github.com/platwin/soda-media-sdk.git
+[submodule "packages/soda-mp-sdk"]
+	path = packages/soda-mp-sdk
+	url = https://github.com/platwin/soda-mp-sdk.git

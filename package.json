@@ -32,7 +32,7 @@
     "prepublish": "pnpm build",
     "verify": "lerna run verify --stream",
     "prettier": "lerna run prettier",
-    "build": "lerna run build",
+    "build": "pnpm run build -r",
     "test": "NODE_ENV=development lerna run test --stream"
   },
   "husky": {

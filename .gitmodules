@@ -13,3 +13,6 @@
 [submodule "packages/soda-extension-sdk"]
 	path = packages/soda-extension-sdk
 	url = https://github.com/platwin/soda-extension-sdk.git
+[submodule "packages/soda-image-kit"]
+	path = packages/soda-image-kit
+	url = https://github.com/platwin/soda-image-kit.git

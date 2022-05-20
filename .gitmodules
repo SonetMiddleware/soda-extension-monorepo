@@ -31,3 +31,12 @@
 [submodule "packages/soda-storage-sdk"]
 	path = packages/soda-storage-sdk
 	url = https://github.com/platwin/soda-storage-sdk.git
+[submodule "packages/soda-asset"]
+	path = packages/soda-asset
+	url = https://github.com/platwin/soda-asset.git
+[submodule "packages/soda-opensea"]
+	path = packages/soda-opensea
+	url = https://github.com/platwin/soda-opensea.git
+[submodule "packages/soda-package-index"]
+	path = packages/soda-package-index
+	url = https://github.com/platwin/soda-package-index.git

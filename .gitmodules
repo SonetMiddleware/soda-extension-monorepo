@@ -13,15 +13,9 @@
 [submodule "packages/soda-extension-sdk"]
 	path = packages/soda-extension-sdk
 	url = https://github.com/platwin/soda-extension-sdk.git
-[submodule "packages/soda-image-kit"]
-	path = packages/soda-image-kit
-	url = https://github.com/platwin/soda-image-kit.git
 [submodule "packages/soda-nashmarket"]
 	path = packages/soda-nashmarket
 	url = https://github.com/platwin/soda-nashmarket.git
-[submodule "packages/soda-ipfs-kit"]
-	path = packages/soda-ipfs-kit
-	url = https://github.com/platwin/soda-ipfs-kit.git
 [submodule "packages/soda-media-sdk"]
 	path = packages/soda-media-sdk
 	url = https://github.com/platwin/soda-media-sdk.git
@@ -40,3 +34,9 @@
 [submodule "packages/soda-package-index"]
 	path = packages/soda-package-index
 	url = https://github.com/platwin/soda-package-index.git
+[submodule "packages/soda-util"]
+	path = packages/soda-util
+	url = https://Plato-Twin@github.com/platwin/soda-util
+[submodule "packages/soda-core-ui"]
+	path = packages/soda-core-ui
+	url = https://Plato-Twin@github.com/platwin/soda-core-ui

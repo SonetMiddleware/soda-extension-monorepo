@@ -36,7 +36,7 @@
 	url = https://github.com/platwin/soda-package-index.git
 [submodule "packages/soda-util"]
 	path = packages/soda-util
-	url = https://Plato-Twin@github.com/platwin/soda-util
+	url = https://github.com/platwin/soda-util
 [submodule "packages/soda-core-ui"]
 	path = packages/soda-core-ui
-	url = https://Plato-Twin@github.com/platwin/soda-core-ui
+	url = https://github.com/platwin/soda-core-ui

@@ -10,6 +10,9 @@
 [submodule "packages/twitter-kit"]
 	path = packages/twitter-kit
 	url = https://github.com/platwin/twitter-kit
+[submodule "packages/soda-event-util"]
+	path = packages/soda-event-util
+	url = https://github.com/platwin/soda-event-util.git
 [submodule "packages/soda-extension-sdk"]
 	path = packages/soda-extension-sdk
 	url = https://github.com/platwin/soda-extension-sdk.git

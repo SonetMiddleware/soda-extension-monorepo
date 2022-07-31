@@ -32,8 +32,9 @@
     "prepublish": "pnpm build",
     "verify": "lerna run verify --stream",
     "prettier": "lerna run prettier",
-    "build": "pnpm run build -r",
-    "test": "NODE_ENV=development lerna run test --stream"
+    "build": "pnpm --filter=@soda/* run build",
+    "test": "NODE_ENV=development lerna run test --stream",
+    "start": "pnpm run start --filter soda-extension"
   },
   "husky": {
     "hooks": {

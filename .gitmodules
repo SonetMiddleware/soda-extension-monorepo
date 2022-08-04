@@ -43,3 +43,6 @@
 [submodule "packages/soda-core-ui"]
 	path = packages/soda-core-ui
 	url = https://github.com/platwin/soda-core-ui
+[submodule "packages/soda-media-3d"]
+	path = packages/soda-media-3d
+	url = https://github.com/meta4d-me/soda-media-3d

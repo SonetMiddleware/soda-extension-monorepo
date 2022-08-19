@@ -532,6 +532,31 @@ importers:
       ts-node: 9.1.1_typescript@4.6.4
       typescript: 4.6.4
 
+  packages/soda-media-3d:
+    specifiers:
+      '@babel/runtime': ^7.17.9
+      '@soda/soda-media-sdk': workspace:^0.0.1
+      eslint: ^7.7.0
+      father-build: ^1.21.2
+      husky: ^4.3.8
+      jest: 26.6.3
+      lint-staged: ^10.0.2
+      prettier: ^2.2.1
+      ts-node: ^9.1.1
+      typescript: ^4.6.2
+    dependencies:
+      '@babel/runtime': 7.18.3
+      '@soda/soda-media-sdk': link:../soda-media-sdk
+    devDependencies:
+      eslint: 7.32.0
+      father-build: 1.22.2
+      husky: 4.3.8
+      jest: 26.6.3_ts-node@9.1.1
+      lint-staged: 10.5.4
+      prettier: 2.6.2
+      ts-node: 9.1.1_typescript@4.6.4
+      typescript: 4.6.4
+
   packages/soda-media-sdk:
     specifiers:
       '@babel/runtime': ^7.17.9

@@ -798,6 +798,11 @@ importers:
 
 packages:
 
+  /@achingbrain/node-fetch/2.6.7:
+    resolution: {integrity: sha512-iTASGs+HTFK5E4ZqcMsHmeJ4zodyq8L38lZV33jwqcBJYoUt3HjN4+ot+O9/0b+ke8ddE7UgOtVuZN/OkV19/g==}
+    engines: {node: 4.x || >=6.0.0}
+    dev: false
+
   /@ahooksjs/use-request/2.8.15_react@17.0.2:
     resolution: {integrity: sha512-xhVaM4fyIiAMdVFuuU5i3CFUdFa/IblF+fvITVMFaUEO3w/V5tVCAF6WIA3T03n1/RPuzRkA7Ao1PFtSGtGelw==}
     peerDependencies:
@@ -14134,7 +14139,7 @@ packages:
       nanoid: 3.3.4
       native-abort-controller: 1.0.4_abort-controller@3.0.0
       native-fetch: 3.0.0_hmwa7nplpltavckpkeobtw6pv4
-      node-fetch: '@registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz'
+      node-fetch: /@achingbrain/node-fetch/2.6.7
       react-native-fetch-api: 2.0.0
       stream-to-it: 0.2.4
     dev: false
@@ -14596,7 +14601,7 @@ packages:
     dev: false
 
   /isarray/1.0.0:
-    resolution: {integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=}
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
 
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
@@ -16620,7 +16625,7 @@ packages:
     peerDependencies:
       node-fetch: '*'
     dependencies:
-      node-fetch: '@registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz'
+      node-fetch: /@achingbrain/node-fetch/2.6.7
     dev: false
 
   /natural-compare/1.4.0:
@@ -23648,10 +23653,3 @@ packages:
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
     dev: true
-
-  '@registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz':
-    resolution: {tarball: https://registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz}
-    name: '@achingbrain/node-fetch'
-    version: 2.6.7
-    engines: {node: 4.x || >=6.0.0}
-    dev: false

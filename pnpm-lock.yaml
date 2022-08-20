@@ -532,31 +532,6 @@ importers:
       ts-node: 9.1.1_typescript@4.6.4
       typescript: 4.6.4
 
-  packages/soda-media-3d:
-    specifiers:
-      '@babel/runtime': ^7.17.9
-      '@soda/soda-media-sdk': workspace:^0.0.1
-      eslint: ^7.7.0
-      father-build: ^1.21.2
-      husky: ^4.3.8
-      jest: 26.6.3
-      lint-staged: ^10.0.2
-      prettier: ^2.2.1
-      ts-node: ^9.1.1
-      typescript: ^4.6.2
-    dependencies:
-      '@babel/runtime': 7.18.3
-      '@soda/soda-media-sdk': link:../soda-media-sdk
-    devDependencies:
-      eslint: 7.32.0
-      father-build: 1.22.2
-      husky: 4.3.8
-      jest: 26.6.3_ts-node@9.1.1
-      lint-staged: 10.5.4
-      prettier: 2.6.2
-      ts-node: 9.1.1_typescript@4.6.4
-      typescript: 4.6.4
-
   packages/soda-media-sdk:
     specifiers:
       '@babel/runtime': ^7.17.9
@@ -658,7 +633,6 @@ importers:
 
   packages/soda-package-index:
     specifiers:
-      '@soda/m4m-3d-gltf': workspace:^0.0.1
       '@soda/soda-asset': workspace:^0.0.1
       '@soda/soda-media-sdk': workspace:^0.0.1
       '@soda/soda-nashmarket': workspace:^0.0.1
@@ -674,7 +648,6 @@ importers:
       ts-node: ^9.1.1
       typescript: ^4.6.2
     dependencies:
-      '@soda/m4m-3d-gltf': link:../soda-media-3d
       '@soda/soda-asset': link:../soda-asset
       '@soda/soda-media-sdk': link:../soda-media-sdk
       '@soda/soda-nashmarket': link:../soda-nashmarket
@@ -797,11 +770,6 @@ importers:
       typescript: 4.6.4
 
 packages:
-
-  /@achingbrain/node-fetch/2.6.7:
-    resolution: {integrity: sha512-iTASGs+HTFK5E4ZqcMsHmeJ4zodyq8L38lZV33jwqcBJYoUt3HjN4+ot+O9/0b+ke8ddE7UgOtVuZN/OkV19/g==}
-    engines: {node: 4.x || >=6.0.0}
-    dev: false
 
   /@ahooksjs/use-request/2.8.15_react@17.0.2:
     resolution: {integrity: sha512-xhVaM4fyIiAMdVFuuU5i3CFUdFa/IblF+fvITVMFaUEO3w/V5tVCAF6WIA3T03n1/RPuzRkA7Ao1PFtSGtGelw==}
@@ -14139,7 +14107,7 @@ packages:
       nanoid: 3.3.4
       native-abort-controller: 1.0.4_abort-controller@3.0.0
       native-fetch: 3.0.0_hmwa7nplpltavckpkeobtw6pv4
-      node-fetch: /@achingbrain/node-fetch/2.6.7
+      node-fetch: '@registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz'
       react-native-fetch-api: 2.0.0
       stream-to-it: 0.2.4
     dev: false
@@ -16625,7 +16593,7 @@ packages:
     peerDependencies:
       node-fetch: '*'
     dependencies:
-      node-fetch: /@achingbrain/node-fetch/2.6.7
+      node-fetch: '@registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz'
     dev: false
 
   /natural-compare/1.4.0:
@@ -23653,3 +23621,10 @@ packages:
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
     dev: true
+
+  '@registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz':
+    resolution: {tarball: https://registry.npmjs.org/@achingbrain/node-fetch/-/node-fetch-2.6.7.tgz}
+    name: '@achingbrain/node-fetch'
+    version: 2.6.7
+    engines: {node: 4.x || >=6.0.0}
+    dev: false

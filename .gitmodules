@@ -46,3 +46,6 @@
 [submodule "packages/soda-media-3d"]
 	path = packages/soda-media-3d
 	url = https://github.com/meta4d-me/soda-media-3d
+[submodule "packages/soda-ongaia"]
+	path = packages/soda-media-3d
+	url = https://github.com/platwin/soda-ongaia

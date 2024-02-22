@@ -32,7 +32,8 @@
     "prepublish": "pnpm build",
     "verify": "lerna run verify --stream",
     "prettier": "lerna run prettier",
-    "build": "pnpm --filter=@soda/* run build",
+    "build": "pnpm --filter=!@soda/extension run build",
+    "build:app": "pnpm --filter=@soda/extension run build",
     "test": "NODE_ENV=development lerna run test --stream",
     "start": "pnpm --filter=@soda/extension run start "
   },
